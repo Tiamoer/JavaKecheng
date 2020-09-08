@@ -20,7 +20,6 @@ public class BasicDataType {
         bufferedReader = new BufferedReader(new InputStreamReader(System.in));  //  字节流转为字符流
         System.out.print("请输入一个浮点数：");
         str = bufferedReader.readLine();
-        // 你好 年号
         num = Float.parseFloat(str);    //  类型转换-String转Float
         System.out.println("您第一次输入的实数是："+num);
         System.out.println("现在使用Scanner对象实现接收输入！");
