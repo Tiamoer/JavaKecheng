@@ -1,4 +1,4 @@
-package chapter2;
+package Chapter4;
 //  流程控制
 public class ProcessControl {
     static int index = 3;
@@ -37,7 +37,7 @@ public class ProcessControl {
         }
 
         //  foreach
-        int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int i : array) {
             System.out.println("array[" + i + "]=" + i);
         }
