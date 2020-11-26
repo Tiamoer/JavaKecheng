@@ -47,9 +47,9 @@ public class Java_Mysql8 {
         System.out.println("删除了"+count+"条记录！");
 
         try {
-            if (resultSet!=null) resultSet.close();
-            if (statement!=null) statement.close();
-            if (connection!=null) connection.close();
+            resultSet.close();
+            statement.close();
+            connection.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
